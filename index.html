@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Type Rage - Speed Typing Game!</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" type="text/css" href="component.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="game/icon.png" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1 class="title">TYPE RAGE</h1>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm my-auto color-3">
+          <button
+            type="button"
+            class="btn btn-3 btn-3d icon-star-2"
+            data-toggle="modal"
+            data-target="#exampleModalCenter"
+          >
+            Instructions
+          </button>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModalCenter"
+            tabindex="-1"
+            role="dialog"
+            aria-labelledby="exampleModalCenterTitle"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">
+                    Type Rage
+                  </h5>
+                  <button
+                    type="button"
+                    class="close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Type each word in the given amount of seconds to score! To play again, just type the current word. Your score
+                will reset.
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-dismiss="modal"
+                  >
+                    Close
+                  </button>
+                  <button type="button" class="btn btn-secondary"><a class="buttlink"href="type_rage.pdf" download>
+  Download PDF
+</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <img class="logo" src="logo.png" alt="logo" />
+        </div>
+        <div class="col-sm my-auto color-3">
+          <a
+            href="https://www.youtube.com/playlist?list=PL3gPF9-TVhzzu10T6CoFv3lZyF4JXfdQF"
+            target="_blank"
+            ><button class="btn btn-3 btn-3d icon-heart-2">Tutorials</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <div id="wrapper">
+      <a href="game/index.html" class="my-super-cool-btn">
+        <div class="dots-container">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <span>Play!</span>
+      </a>
+    </div>
+    <p class="developer">
+      Developed with love by
+      <a href="https://www.theanasuddin.com/" target="_blank">@theanasuddin</a>
+    </p>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
