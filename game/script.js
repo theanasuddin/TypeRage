@@ -126,7 +126,7 @@ input.onfocus = function() {
 }
 
 input.onblur = function() {
-    input.placeholder = "Type Here!";
+    input.placeholder = "Type the text above to begin...";
 }
 
 function setColors() {
@@ -218,11 +218,10 @@ input.oninput = function() {
                     input.blur();
                     input.value = "";
                     setTimeout(() => {
-                        clearInterval(timed);
+                        clearInterval(timed);    
                         changeLevel(0);
                         countdown = 4;
-                        setHigh;
-Score();
+                        setHighScore();
                         document.getElementById("secs").innerHTML = countdown;
                     }, 1000);
                 }
@@ -270,6 +269,6 @@ Score();
             })
             box.style.marginTop = offset.toString() + "px";
             input.value = "";
-        }
+        }   
     }
 }
