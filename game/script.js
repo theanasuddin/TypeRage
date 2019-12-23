@@ -4,7 +4,7 @@ var words =[
         "fall19",
         "cse",
         "cse299",
-        "junior design project",
+        "junior",
         "faculty",
         "tnr",
         "assignment",
